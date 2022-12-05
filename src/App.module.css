@@ -1,0 +1,17 @@
+.input {
+  border: solid 1px;
+  width: 100%;
+  padding: 0.5rem;
+  resize: none;
+  overflow-y: hidden;
+}
+
+.numberOfTeamsButton {
+  display: flex;
+}
+
+.teamList {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: .5rem;
+}
